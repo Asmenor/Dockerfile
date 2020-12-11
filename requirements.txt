@@ -1,0 +1,7 @@
+$ourJson = ‘{“GET”:{“Array1”:”IPA”, “Array2”:”Stout”, “Array3”:”Porter”, “Array4”:”Sour”}, “API”:{“Array5”:”Voodoo Ranger”, “Array6”:”120 Minute IPA”, “Array7”:”Two Hearted Ale”}, “POST” {“Array8”:”brewery”}  }’;
+
+$CSIT = json_encode($ourJson,1);
+
+print_r($CSIT);
+
+Array ( [GET] => Array ( [Array1] => IPA [Array2] => Stout [Array3] => Porter [Array4] => Sour ) [API] => Array ( [Array5] => Voodoo Ranger [Array6] => 120 Minute IPA [Array7] => Two Hearted Ale ) [POST] => Array ( [Array8] => brewery ) )
